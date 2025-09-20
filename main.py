@@ -6,9 +6,9 @@ print('Try to get as many questions correct as possible...')
 totalQuestions = 4
 score = 0
 
-ans = input('1. What is the name of my class? ')
+ans = input('1. What is my name? ')
 
-if ans.lower() == 'Imagination Lab':
+if ans == ('Yuitta' ):
     print('Correct!')
     score += 1
 else:
@@ -16,15 +16,15 @@ else:
 
 ans = input('2. What is my age? ')
 
-if ans == "42":
+if ans == "54":
     print('Correct!')
     score += 1
 else:
     print('Incorrect')
 
-ans = input('3. What is my favourite sport? ')
+ans = input('3. What is my favourite language? ')
 
-if ans.lower() == "basketball":
+if ans.lower() == "Tkelebkyian":
     print('Correct!')
     score += 1
 else:
@@ -32,7 +32,7 @@ else:
 
 ans = input('4. What is my favourite food? ')
 
-if ans.lower() == "pizza":
+if ans.lower() == "sushi":
     print('Correct!')
     score += 1
 else:
